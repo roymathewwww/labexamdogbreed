@@ -2,9 +2,13 @@
   "name": "dogooo",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+  "buid": "npm run build",
     "preview": "vite preview"
   },
   "dependencies": {
